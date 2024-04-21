@@ -3,8 +3,10 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+  { 'tpope/vim-fugitive' },
   { 'nvim-lua/plenary.nvim' },
   { 'ThePrimeagen/harpoon' },
+  { 'github/copilot.vim' },
   {
     'Pocco81/true-zen.nvim',
     cmd = { 'TZAtaraxis', 'TZMinimalist', 'TZNarrow' },
@@ -13,5 +15,4 @@ return {
     'mbbill/undotree',
     cmd = { 'UndotreeToggle' },
   },
-  { 'tpope/vim-fugitive' },
 }

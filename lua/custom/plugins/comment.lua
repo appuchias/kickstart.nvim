@@ -6,9 +6,9 @@ return {
     { 'gbc', mode = 'n' },
     { 'gb', mode = 'v' },
   },
-  init = function()
-    require('core.utils').load_mappings 'comment'
-  end,
+  -- init = function()
+  --   require('core.utils').load_mappings 'comment'
+  -- end,
   config = function(_, opts)
     require('Comment').setup(opts)
   end,
